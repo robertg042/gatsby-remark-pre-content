@@ -1,0 +1,39 @@
+{
+  "name": "gatsby-remark-pre-content",
+  "version": "0.1.0",
+  "description": "Expose pre tag content in custom shortcode",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run babel",
+    "babel": "node ./node_modules/@babel/cli/bin/babel.js src --out-dir .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robertg042/gatsby-remark-pre-content.git"
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "gatsby-plugin-mdx",
+    "gatsby-remark-plugin",
+    "gatsby-transformer-remark",
+    "mdx",
+    "markdown"
+  ],
+  "author": "Robert Górnicki <dev@robertgornicki.com> (https://github.com/robertg042)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robertg042/gatsby-remark-pre-content/issues"
+  },
+  "homepage": "https://github.com/robertg042/gatsby-remark-pre-content#readme",
+  "devDependencies": {
+    "@babel/cli": "7.12.16",
+    "@babel/core": "7.12.16",
+    "@babel/preset-env": "7.12.16"
+  },
+  "dependencies": {
+    "query-string": "^6.14.0",
+    "unist-util-visit": "^2.0.3"
+  }
+}
